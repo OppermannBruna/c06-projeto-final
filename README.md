@@ -1,12 +1,15 @@
-# C06 – Projeto Final (NP2)
+# Mini-SCADA – Fábrica de Biscoitos
 
 Projeto final da disciplina **C06 – Programação Orientada a Objetos**, Prof. Christopher Lima.
 
-> 🚧 Em definição — a ideia do projeto ainda está sendo discutida pelo grupo.
+> 🚧 Em desenvolvimento. A proposta de arquitetura está em [`docs/arquitetura.md`](docs/arquitetura.md).
 
 ## Sobre o projeto
 
-_Descrição do problema real que o projeto resolve e sua relação com a área de formação do grupo._
+Sistema supervisório (**SCADA**) simulado para uma linha de produção de biscoitos: forno, esteira, empacotadora e paletizador
+operam em paralelo, enquanto o supervisório monitora sensores, gera alarmes, recebe comandos do operador e registra o histórico do processo.
+
+**Relevância ao curso:** supervisão, controle de processos e alarmes industriais são temas centrais de Engenharia de Controle e Automação.
 
 ## Integrantes
 
@@ -18,11 +21,14 @@ _Descrição do problema real que o projeto resolve e sua relação com a área 
 
 ## Tecnologias
 
-_Linguagem, framework e bibliotecas utilizadas._
+- Java 21 (versão alvo fixada no `pom.xml`)
+- Maven
 
 ## Como executar
 
-_Pré-requisitos e passos para compilar/rodar o projeto._
+Pré-requisito: JDK 21.
+
+No IntelliJ: abra a pasta do projeto (é importado como Maven) e rode `com.grupo8.scada.Main`.
 
 ## Requisitos de POO atendidos
 
@@ -47,4 +53,4 @@ _Declaração obrigatória: o grupo utilizou IA? Como? Qual ferramenta?_
 
 - **Utilizou IA?** Sim.
 - **Ferramenta(s):** Claude Code (Anthropic).
-- **Como:** criação e configuração inicial do repositório (estrutura de pastas, `.gitignore` e este README). _Atualizar conforme o uso ao longo do projeto._
+- **Como:** criação e configuração inicial do repositório (estrutura de pastas, `.gitignore`, `pom.xml` e este README) e proposta inicial de arquitetura/UML em `docs/arquitetura.md`, revisada e discutida pelo grupo. O Gemini (Google) foi usado para levantar ideias de tema. _Atualizar conforme o uso ao longo do projeto._
