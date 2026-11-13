@@ -12,8 +12,9 @@ _Descrição do problema real que o projeto resolve e sua relação com a área 
 
 | Nome | GitHub |
 |------|--------|
-|      | [@SamuelOliveira1606](https://github.com/SamuelOliveira1606) |
-|      | [@rodrigris1](https://github.com/rodrigris1) |
+| Bruna Oppermann | _a definir_ |
+| Enzo Rodrigues Ribeiro Lemos | [@rodrigris1](https://github.com/rodrigris1) |
+| Samuel Silva Oliveira | [@SamuelOliveira1606](https://github.com/SamuelOliveira1606) |
 
 ## Tecnologias
 
